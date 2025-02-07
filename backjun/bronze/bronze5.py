@@ -316,7 +316,65 @@
 # st = input()
 # print(1) if st == st[:][::-1] else print(0)
 
+# 10951
+# while 1:
+#     try:
+#         a, b = map(int,input().split())
+#         print(a+b)
+#     except:
+#         break
+
+# 15552
+# import sys
+# a = int(sys.stdin.readline())
+# for i in range(a):
+#     a, b = map(int, sys.stdin.readline().split())
+#     print(a + b)
+
+# 11654
+# st = input()
+# print(ord(st))
+
+# 10809
+# s = input()
+# for i in 'abcdefghijklmnopqrstuvwxyz':
+#     print(s.find(i), end=' ')
+
+# 5622
+# s = input()
+# count = 0
+# dic = {'A': 3, 'B' : 3, 'C' : 3,
+#        'D' : 4, 'E' : 4, 'F' : 4,
+#        'G' : 5, 'H' : 5, 'I' : 5,
+#        'J' : 6, 'K' : 6, 'L' : 6,
+#        'M' : 7, 'N' : 7, 'O' : 7,
+#        'P' : 8, 'Q' : 8, 'R' : 8, 'S' : 8,
+#        'T' : 9, 'U' : 9, 'V' : 9,
+#        'W' : 10, 'X' : 10, 'Y' : 10, 'Z' : 10}
+# for i in s:
+#     count += dic[i]
+# print(count)
+
+# 11718
+# import sys
+# while True:
+#     s = sys.stdin.readline().rstrip()
+#     print(s)
+#     if s == "":
+#         break
+
 # 1157
+# s = input()
+# s = s.upper()
+# sSet = set(s)
+# lstsSet = list(sSet)
+# lst = []
+# for i in sSet:
+#     lst.append(s.count(i))
+# maxCount = max(lst)
+# print('?') if lst.count(maxCount) >= 2 else print(lstsSet[lst.index(maxCount)])
+
+# 2941
+dic = {'c=':'č', 'c-':'ć', 'dz=':'dž', 'd-':'đ',
+       'lj':'lj', 'nj':'nj', 's=':'š', 'z=':'ž'}
 st = input()
-st = st.lower()
-for i in range()

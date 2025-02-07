@@ -5,16 +5,23 @@
 #     f.write(data)
 # f.close()
 
-f = open("새파일.txt", 'r')
-line = f.readline()
-print(line)
-f.close()
+# f = open("새파일.txt", 'r')
+# line = f.readline()
+# print(line)
+# f.close()
+
+# f = open("새파일.txt", 'r')
+# while True:
+#     line = f.readline()
+#     if not line:
+#         break
+#     print(line.rstrip())
+# f.close()
+
+# read() : 파일 전체를 문자열로 반환한다.
+# f = open("새파일.txt", 'r')
+# line = f.read()
+# print(line)
+# f.close()
 
 
-f = open("새파일.txt", 'r')
-while True:
-    line = f.readline()
-    if not line:
-        break
-    print(line.rstrip())
-f.close()
