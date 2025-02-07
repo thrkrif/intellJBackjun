@@ -1,0 +1,20 @@
+# 파일 읽고 쓰기를 해보자
+# f = open("새파일.txt", 'w')
+# for i in range(10):
+#     data = f"{i}번째 줄입니다.\n"
+#     f.write(data)
+# f.close()
+
+f = open("새파일.txt", 'r')
+line = f.readline()
+print(line)
+f.close()
+
+
+f = open("새파일.txt", 'r')
+while True:
+    line = f.readline()
+    if not line:
+        break
+    print(line.rstrip())
+f.close()

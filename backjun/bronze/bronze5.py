@@ -283,7 +283,40 @@
 #     count += int(nums[i])
 # print(count)
 
-# 10809
-str = input()
-lst = [0] * 28
+# 2675
+# num = int(input())
+# for i in range(num):
+#     a, b = map(str, input().split())  -> 이미 input().split()이 문자열이므로 map 쓸 필요 없음
+#     print(''.join(map(str,[i * int(a) for i in b])))
 
+# 1152
+# word = input()
+# print(len(word.split()))
+
+# 2908
+# a, b = input().split()
+# print(max(int(a[:][::-1]), int(b[:][::-1])))
+
+# 3003
+# chess = [1, 1, 2, 2, 2, 8]
+# lst = input().split()
+# lstInt = [int(i) for i in lst]
+# for i in range(len(chess)):
+#     chess[i] -= lstInt[i]
+# print(' '.join(map(str, chess)))
+
+# 2444
+# a = int(input())
+# for i in range(a):
+#     print(" " * (a - i - 1) + "*" * (2 * i + 1))
+# for i in range(a-1):
+#     print(" " * (i + 1) + "*" * (2 * (a - i - 1) -1))
+
+# 10988
+# st = input()
+# print(1) if st == st[:][::-1] else print(0)
+
+# 1157
+st = input()
+st = st.lower()
+for i in range()
