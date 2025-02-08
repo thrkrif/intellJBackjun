@@ -374,7 +374,9 @@
 # maxCount = max(lst)
 # print('?') if lst.count(maxCount) >= 2 else print(lstsSet[lst.index(maxCount)])
 
-# 2941
-dic = {'c=':'č', 'c-':'ć', 'dz=':'dž', 'd-':'đ',
-       'lj':'lj', 'nj':'nj', 's=':'š', 'z=':'ž'}
-st = input()
+
+
+for i in range(a):
+    for j in range(b):
+        lst += lstA[a][b] + lstB[a][b]
+print(lst)
