@@ -374,9 +374,26 @@
 # maxCount = max(lst)
 # print('?') if lst.count(maxCount) >= 2 else print(lstsSet[lst.index(maxCount)])
 
+# 2566
+# result = []
+# value = -1
+# rowIdx, colIdx = 0, 0
+# for i in range(9):
+#     s = list(map(int, input().split()))
+#     result.append(s)
+#
+# for row in range(len(result)):
+#     for col in range(len(result[row])):
+#         if result[row][col] >= value:
+#             value = result[row][col]
+#             rowIdx = row + 1
+#             colIdx = col + 1
+# print(value)
+# print(rowIdx, colIdx)
 
-
-for i in range(a):
-    for j in range(b):
-        lst += lstA[a][b] + lstB[a][b]
-print(lst)
+# 10798
+str = ''
+lst = [input() for i in range(5)]
+for i in range(len(lst)):
+    for j in range(len(lst[i])):
+       str += lst[j][i]
