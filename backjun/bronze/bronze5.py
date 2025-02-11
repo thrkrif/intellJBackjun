@@ -392,8 +392,25 @@
 # print(rowIdx, colIdx)
 
 # 10798
-str = ''
-lst = [input() for i in range(5)]
-for i in range(len(lst)):
-    for j in range(len(lst[i])):
-       str += lst[j][i]
+# 리스트가 총 5개 생성되었음. 각 리스트를 나눠서 len(리스트) 만큼 for문을 돌려서 각 요소를 하나씩 끄집어 낸다.
+lst = [input() for i in range(5)] # 5줄 입력
+# max_len_lst = max(len(i) for i in lst)  # 리스트 중에 가장 긴 문자열의 크기를 반환
+# result = '' # 출력을 담을 변수
+# for i in range(max_len_lst):
+#     for row in lst:
+#         if i < len(row):
+#             result += row[i]
+# print(result)
+
+# 2738
+a, b = map(int, input().split())
+max_num = max(a,b)  # 작은 행렬을 큰 행렬의 크기와 맞출거임.
+lstA = [int(input()) for i in range(a)]
+lstB = [int(input()) for i in range(b)]
+result = []
+
+if a >= b:
+    for i in range(a):
+        for j in range(a):
+            lstB[i][j]
+
