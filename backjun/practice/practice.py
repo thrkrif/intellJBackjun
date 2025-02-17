@@ -24,6 +24,6 @@
 # print(line)
 # f.close()
 
-
+print('갑자기 왜이래?')
 
 
